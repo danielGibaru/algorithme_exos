@@ -1,5 +1,5 @@
 <?php
-class exo4 {
+final class exo4 {
 	private static function pascal($hauteur = 5, $max = 0) {
 	 
 		if ($hauteur > 20) $hauteur = 20;
@@ -49,6 +49,5 @@ class exo4 {
 		self::pascal(intval($l), intval($n));
 	}
 }
-
 
 exo4::main();

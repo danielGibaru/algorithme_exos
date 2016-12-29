@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class exo6 {
-    private static void truc() {
+    private static void perroquet() {
         Scanner reader = new Scanner(System.in);
         
         String input = "";
@@ -33,10 +33,10 @@ public class exo6 {
         }
         
         System.out.println();
-        truc();
+        perroquet();
     }
     
     public static void main(String[] args) {
-        truc();
+        perroquet();
     }
 }
